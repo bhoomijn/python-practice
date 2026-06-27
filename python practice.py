@@ -1,6 +1,7 @@
 # function and recursions
 
 print("Hello, World!")
+
 # function definition
 def avg():
     a=int(input("Enter the first number: "))
@@ -58,5 +59,14 @@ def factorial(n):
 n = int(input("Enter a number to calculate its factorial: "))
 print(factorial(n))
 
+# Practice test
 
+#question 1:
+
+a=input("Enter a number: ")
+b=input("Enter another number: ")
+c=input("Enter a third number: ")
+
+largest = max(a, b, c)
+print("The largest number is:", largest)
 
