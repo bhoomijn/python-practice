@@ -106,4 +106,9 @@ print(b , end = " ")
 print(c , end = " ")
 print(d)
 
+# question 4
+
+n = int(input("Enter a number: "))
+sum = ( n * (n + 1)) // 2
+print("The sum of the first", n, "natural numbers is:", sum)
 
